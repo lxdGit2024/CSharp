@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace lxd.MTHProject
+{
+    public partial class FrmParamSet : Form
+    {
+        public FrmParamSet()
+        {
+            InitializeComponent();
+        }
+
+        private void btn_GroupConfig_Click(object sender, EventArgs e)
+        {
+            new FrmGroupConfig().ShowDialog();
+        }
+    }
+}
